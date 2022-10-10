@@ -17,6 +17,11 @@ h1,h3,button,select,a
     all: unset;
 }
 
+li:hover,button:hover,.logo:hover,select:hover
+{
+    cursor: pointer;
+}
+
 body {
     background-color: white;
     font-family: var(--ff-primary);
